@@ -5,6 +5,7 @@
 
 body,
 html {
+  background-color: black;
   height: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
@@ -100,13 +101,41 @@ ul {
   display: flex;
   gap: 1rem;
   align-items: center;
+  padding: 10px 0px;
+}
+
+.contact-card ul {
   justify-content: center;
   width: 100%;
 }
 
+.navbar {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: right;
+  background-color: #000000b0;
+  padding-right: 15%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+/* .navbar li {
+  min-width: 150px;
+} */
+
 li {
   height: 25px;
   padding: 5px 10px;
+  text-align: center;
 }
 
 svg {
