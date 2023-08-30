@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  background-color: black;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.background {
+  background-image: url("./assets/background-home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  transform: translate(-100%, -100%);
+  padding: 10px;
+  width: max-content;
+}
+
+.hello-card {
+  background-color: #000000b0;
+  padding: 3rem;
+  max-width: 800px;
+  text-align: justify;
+  border-radius: 25px;
+  display: flex;
+  gap: 2.5rem;
+  box-shadow: 0 0 10px black;
+  margin: 1rem 0rem;
+}
+
+.contact-card {
+  background-color: #000000b0;
+  padding: 0.5rem 3rem;
+  max-width: 800px;
+  width: 100%;
+  text-align: left;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem;
+  box-shadow: 0 0 10px black;
+  margin: 1rem 0rem;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin: 1rem 0rem;
+}
+
+.rounded-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  flex: 0 0 200px;
+  align-self: center;
+  overflow: hidden;
+}
+
+.rounded-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.contact-card ul {
+  justify-content: center;
+  width: 100%;
+}
+
+.navbar {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: right;
+  background-color: #000000b0;
+  padding-right: 15%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+/* .navbar li {
+  min-width: 150px;
+} */
+
+li {
+  height: 25px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  color: #ffffffb0;
+}
